@@ -2,11 +2,12 @@
   "name": "sevity_token",
   "version": "1.0.0",
   "description": "ERC-20 Token",
-  "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@truffle/hdwallet-provider": "^2.1.11",
     "bip39": "^3.1.0",
     "dotenv": "^16.0.3",
     "ethereumjs-wallet": "^1.0.2"
@@ -20,9 +21,12 @@
     "url": "git+https://github.com/sevity/sevity_token.git"
   },
   "author": "Wonil Kim",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sevity/sevity_token/issues"
   },
   "homepage": "https://github.com/sevity/sevity_token#readme"
+  "engines": {
+    "node": "12.x"
+  }
 }
